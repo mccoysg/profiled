@@ -1,5 +1,5 @@
 module Connection
-  require 'lonely_coder'
+  require './../lib/profile_me'
 
   class Matches < ActiveRecord::Base
     okc = OKCupid.new('avocado__','Pepper66')
